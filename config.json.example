@@ -1,0 +1,5 @@
+{
+    "lb": 0.2,
+    "ub": "Inf",
+    "img": "testdata/brad1/data.nii.gz"
+}

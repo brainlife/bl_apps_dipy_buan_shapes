@@ -1,0 +1,5 @@
+.idea
+output
+testdata
+config.json
+build.sh
