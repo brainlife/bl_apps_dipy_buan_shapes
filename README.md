@@ -10,9 +10,9 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="MIT license"></a>
 </p>
 
-> 📍 **This branch, `1.1.1`, is the brainlife.io App BUAN Compute Bundles Shapes ** ([doi:10.25663/brainlife.app.455](https://doi.org/10.25663/brainlife.app.455)).
+> **This branch, `1.1.1`, is the brainlife.io App BUAN Compute Bundles Shapes ** ([doi:10.25663/brainlife.app.455](https://doi.org/10.25663/brainlife.app.455)).
 
-## 🧠 At a glance
+## At a glance
 
 <!-- brainlife-app:begin (generated from the App manifest; edit the manifest, not this block) -->
 
@@ -22,19 +22,19 @@ Wraps dipy_buan_shapes, which finds shape similarity between input bundles of th
 
 | | |
 |---|---|
-| 🐳 **Container** | `brainlife/dipy:1.1.1` |
-| ⚙️ **Resources** | 8 CPUs |
-| 🔗 **Run it** | [doi.org/10.25663/brainlife.app.455](https://doi.org/10.25663/brainlife.app.455) |
+| **Container** | `brainlife/dipy:1.1.1` |
+| **Resources** | 8 CPUs |
+| **Run it** | [doi.org/10.25663/brainlife.app.455](https://doi.org/10.25663/brainlife.app.455) |
 
 <!-- brainlife-app:end -->
 
-## 🚀 Running the App
+## Running the App
 
-### ☁️ On brainlife.io
+### On brainlife.io
 
 The App is registered at [doi.org/10.25663/brainlife.app.455](https://doi.org/10.25663/brainlife.app.455) and is one of the [DIPY Apps on brainlife.io](https://brainlife.io/apps#dipy). It wraps the DIPY command-line workflow [`dipy_buan_shapes`](https://dipy.org/documentation/1.2.0./interfaces/buan_flow/), which finds shape similarity between input bundles of the same type across populations, implementing the bundle shape similarity method of Bundle Analytics (Chandio et al. 2020). The code reads `subject_folder`, `clust_thr` and `threshold` from `config.json`; no inputs or parameters are currently registered for the App on brainlife.io.
 
-### 💻 Locally
+### Locally
 
 You need [Singularity/Apptainer](https://apptainer.org/) and [`jq`](https://jqlang.github.io/jq/). DIPY 1.1.1 runs inside the container.
 
@@ -61,13 +61,13 @@ You can also call the workflow directly; see the [`dipy_buan_shapes` reference](
 singularity exec -e docker://brainlife/dipy:1.1.1 dipy_buan_shapes [your_args]
 ```
 
-## 📦 Outputs
+## Outputs
 
 ```text
 output/   results of dipy_buan_shapes (bundle shape similarity across subjects)
 ```
 
-## 📚 Citing
+## Citing
 
 > [!TIP]
 > If you use this App in your work, please cite the App, the software it builds on and brainlife.io (below). GitHub's **Cite this repository** button gives the App citation in APA and BibTeX.
@@ -79,11 +79,11 @@ output/   results of dipy_buan_shapes (bundle shape similarity across subjects)
 - Hayashi S, Caron BA, Heinsfeld AS, et al. brainlife.io: a decentralized and open-source cloud platform to support neuroscience research. *Nature Methods* 21:809–813 (2024). [doi:10.1038/s41592-024-02237-2](https://doi.org/10.1038/s41592-024-02237-2)
 - Avesani P, McPherson B, Hayashi S, et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. *Scientific Data* 6:69 (2019). [doi:10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
 
-## 👥 Authors
+## Authors
 
 - [Bramsh Chandio](https://github.com/BramshQamar)
 
-## 💰 Funding
+## Funding
 
 [![Wellcome-226486/Z/22/Z](https://img.shields.io/badge/Wellcome-226486%2FZ%2F22%2FZ-purple.svg)](https://wellcome.org/)
 [![NIH-NINDS-U24NS140384](https://img.shields.io/badge/NIH_NINDS-U24NS140384-green.svg)](https://reporter.nih.gov/project-details/11261037)
@@ -102,6 +102,6 @@ output/   results of dipy_buan_shapes (bundle shape similarity across subjects)
 
 <sub>brainlife.io is publicly funded, and acknowledging that support helps keep it running. This App was developed with support from Wellcome, the U.S. National Institutes of Health (including the BRAIN Initiative BRAIN CONNECTS program: The Axonal Projectome EXchange, U24NS140384, and the Center for Mesoscale Connectomics, UM1NS132207) and the U.S. National Science Foundation.</sub>
 
-## ⚖️ License
+## License
 
 [BSD 3-Clause](LICENSE). DIPY is distributed under the terms of the BSD license; see its [LICENSE file](https://github.com/dipy/dipy/blob/master/LICENSE).
